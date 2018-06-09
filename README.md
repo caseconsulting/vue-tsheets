@@ -1,6 +1,6 @@
 ## Setup
 
-The **Expense Application** is written in **Vue.js** and relies on **Node.js** v8.x+ and the **yarn** package management system.
+The **T-Sheets Application** is written in **Vue.js** and relies on **Node.js** v8.x+ and the **yarn** package management system.
 
 * Download and install Node.js from: https://nodejs.org/
 * Download and install yarn from: https://yarnpkg.com/en/docs/install
