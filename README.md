@@ -10,21 +10,6 @@ The **Expense Application** is written in **Vue.js** and relies on **Node.js** v
 yarn install
 ```
 
-## Environment variables
-
-In order to use **Auth0** authentication, you will need to define four environment variables:
-
-* **VUE_APP_AUTH0_CLIENT_ID**
-* **VUE_APP_AUTH0_DOMAIN**
-* **VUE_APP_HOSTNAME**
-* **VUE_APP_AUTH0_API_ID**
-
-**vue-cli** automatically picks up environment variables in `.env` files. Therefore, you can store these variables in a `.env.local` file in the project root directory. `.env.local.sample` is an example of how this file should look. The `.env.local` file in the **case-expense-app** S3 bucket in the company AWS account has up-to-date values for the environment variables. Download this file to the project root directory:
-
-```
-aws s3 cp s3://case-expense-app/.env.local .env.local
-```
-
 ## Application tasks
 
 To run locally (i.e., start a development server):
