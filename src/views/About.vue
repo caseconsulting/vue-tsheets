@@ -1,5 +1,18 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <h2>This is a Pokemon page</h2>
+    <PokeForm></PokeForm>
+
   </div>
 </template>
+<script>
+import PokeForm from "@/components/PokeForm.vue";
+
+export default {
+  name: "about",
+  components: {
+    PokeForm
+    //PokeList
+  }
+};
+</script>
